@@ -1,9 +1,9 @@
-import UseMemo from "./hooks/useMemo";
+import UsageDebounce from "./hooks&usage/UsageDebounce";
 
 function App() {
   return (
     <div className="App">
-      <UseMemo />
+      <UsageDebounce />
     </div>
   );
 }

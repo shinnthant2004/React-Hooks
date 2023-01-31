@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 
-const UseMemo = () => {
+const UsageMemo = () => {
   const [count, setCount] = useState(0);
 
   const [wordIndex, setWordIndex] = useState(0);
@@ -39,4 +39,4 @@ const UseMemo = () => {
   );
 };
 
-export default UseMemo;
+export default UsageMemo;
