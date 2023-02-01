@@ -10,6 +10,7 @@ const useDebounce = (value, delay) => {
 
     return () => {
       clearTimeout(timer);
+      console.log("timer remove");
     };
   }, [value, delay]);
 

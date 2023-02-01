@@ -1,9 +1,9 @@
-import UsageDebounce from "./hooks&usage/UsageDebounce";
+import UsageImageOnLoad from "./hooks&usage/UsageImageOnLoad";
 
 function App() {
   return (
     <div className="App">
-      <UsageDebounce />
+      <UsageImageOnLoad />
     </div>
   );
 }
